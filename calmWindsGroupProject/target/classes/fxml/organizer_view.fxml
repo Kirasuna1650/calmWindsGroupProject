@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml" prefHeight="400.0" prefWidth="600.0">
+    <VBox spacing="10.0" layoutX="20.0" layoutY="20.0">
+        <Label text="Event Booking System - Organizer View" />
+        
+        <Label text="Event Title:" />
+        <TextField fx:id="eventTitleField" />
+
+        <Label text="Event Description:" />
+        <TextField fx:id="eventDescriptionField" />
+
+        <Label text="Event Capacity:" />
+        <TextField fx:id="eventCapacityField" />
+
+        <Button text="Add Event" fx:id="addEventButton" />
+
+        <Label text="Scheduled Events:" />
+        <ListView fx:id="eventListView" />
+        
+        <Button text="Generate Confirmation Slip" fx:id="generateSlipButton" />
+    </VBox>
+</AnchorPane>

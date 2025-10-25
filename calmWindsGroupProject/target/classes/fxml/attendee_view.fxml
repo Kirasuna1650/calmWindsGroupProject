@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml" prefHeight="400.0" prefWidth="600.0">
+    <VBox spacing="10.0" layoutX="20.0" layoutY="20.0">
+        <Label text="Available Events" />
+        <ListView fx:id="eventListView" prefHeight="300.0" prefWidth="560.0" />
+        <Button text="Book Selected Event" fx:id="bookEventButton" />
+    </VBox>
+</AnchorPane>
